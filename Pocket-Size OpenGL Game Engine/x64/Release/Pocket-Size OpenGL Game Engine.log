@@ -1,0 +1,19 @@
+﻿  Application.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+D:\Libraries\GLAD\OpenGL 4.6\include\GLAD\glad.h(32,1): message : see previous definition of 'APIENTRY'
+  Shader.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+D:\Libraries\GLAD\OpenGL 4.6\include\GLAD\glad.h(32,1): message : see previous definition of 'APIENTRY'
+  Utils.cpp
+  Window.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+D:\Libraries\GLAD\OpenGL 4.6\include\GLAD\glad.h(32,1): message : see previous definition of 'APIENTRY'
+  Main.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+D:\Libraries\GLAD\OpenGL 4.6\include\GLAD\glad.h(32,1): message : see previous definition of 'APIENTRY'
+  Generating code
+  4001 of 4121 functions (97.1%) were compiled, the rest were copied from previous compilation.
+    142 functions were new in current compilation
+    26 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Pocket-Size OpenGL Game Engine.vcxproj -> D:\Program Files\Programming\C++\Game Engine\Pocket-Size OpenGL Game Engine\x64\Release\Pocket-Size OpenGL Game Engine.exe

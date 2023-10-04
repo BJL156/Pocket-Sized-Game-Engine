@@ -1,0 +1,11 @@
+﻿  Main.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+D:\Libraries\GLAD\OpenGL 4.6\include\GLAD\glad.h(32,1): message : see previous definition of 'APIENTRY'
+  Application.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+D:\Libraries\GLAD\OpenGL 4.6\include\GLAD\glad.h(32,1): message : see previous definition of 'APIENTRY'
+  Renderer2D.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+D:\Libraries\GLAD\OpenGL 4.6\include\GLAD\glad.h(32,1): message : see previous definition of 'APIENTRY'
+  Generating Code...
+  Pocket-Size OpenGL Game Engine.vcxproj -> D:\Program Files\Programming\C++\Game Engine\Pocket-Size OpenGL Game Engine\x64\Debug\Pocket-Size OpenGL Game Engine.exe
