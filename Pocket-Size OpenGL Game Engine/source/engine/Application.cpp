@@ -13,7 +13,7 @@ namespace pse {
 		while (!m_Window.shouldClose()) {
 			m_Window.update();
 
-			m_Renderer2D.draw(m_Window.getSize());
+			m_GameObject.draw(m_Renderer2D, m_Window);
 		}
 	}
 }

@@ -3,6 +3,7 @@
 
 #include "Window.hpp"
 #include "Renderer2D.hpp"
+#include "GameObject.hpp"
 
 #include <string>
 
@@ -20,6 +21,7 @@ namespace pse {
 		Window m_Window{ m_Width, m_Height, m_Title };
 
 		Renderer2D m_Renderer2D{};
+		GameObject m_GameObject{ glm::vec2(40.0f, 10.0f), glm::vec2(10.0f, 50.0f) };
 	};
 }
 

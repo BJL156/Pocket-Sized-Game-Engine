@@ -16,7 +16,7 @@ namespace pse {
 		Renderer2D();
 		~Renderer2D();
 
-		void draw(const glm::vec2 windowSize);
+		void draw(const glm::vec2 position, const glm::vec2 scale, const glm::vec2 windowSize);
 	private:
 		void createRenderData();
 

@@ -11,15 +11,15 @@ namespace pse {
 		glDeleteVertexArrays(1, &m_Vao);
 	}
 
-	void pse::Renderer2D::draw(const glm::vec2 windowSize) {
+	void pse::Renderer2D::draw(const glm::vec2 position, const glm::vec2 scale, const glm::vec2 windowSize) {
 		shader.use();
 
 		glm::mat4 model = glm::mat4(1.0f);
 		glm::mat4 view = glm::mat4(1.0f);
 		glm::mat4 proj = glm::ortho(0.0f, windowSize.x, windowSize.y, 0.0f);
 
-		model = glm::translate(model, glm::vec3(0.0f, 0.0f, 0.0f));
-		model = glm::scale(model, glm::vec3(100.0f, 100.0f, 0.0f));
+		model = glm::translate(model, glm::vec3(position, 0.0f));
+		model = glm::scale(model, glm::vec3(scale, 0.0f));
 
 		shader.setMat4("model", model);
 		shader.setMat4("view", view);
